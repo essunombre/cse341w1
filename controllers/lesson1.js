@@ -12,7 +12,7 @@ const jacobRoute = (req, res) =>{
 }
 
 const andreaRoute = (req, res) =>{
-    res.send('Andre')
+    res.json('Andre')
 }
 
 module.exports = {
